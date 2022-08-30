@@ -90,7 +90,7 @@ export default withOGImage<'query', 'id'>({
         : undefined
       const date =
         isBlogPost && dateUpdated
-          ? `${dateUpdated.toLocaleString('en-US', {
+          ? `${dateUpdated.toLocaleString('en-KR', {
               month: 'long'
             })} ${dateUpdated.getFullYear()}`
           : undefined
